@@ -1,0 +1,116 @@
+
+
+/*APPROACH区*/
+.approach-part {
+	padding: 30px 0px 120px 0px;
+}
+.round-logo span {
+	font-size: 26px;
+	line-height: 70px;
+	color: #08ABA6;
+}
+.round-logo {
+	display: block;
+	height: 70px;
+	width: 70px;
+	border: 1px solid #08ABA6;
+	border-radius: 35px;
+	margin-top: 40px;
+}
+.caption p {
+	font: 14px/1.7 "Source Sans Pro", sans-serif;	
+	color: #767676;
+	margin: 0px;
+	padding: 0px;
+}
+/* APPROACH区 */
+
+/*for customers区*/
+.for-part {
+	text-align: center;
+}
+.for-text {
+	font-size: 15px;
+	font-weight: 600;
+	color: rgb(68, 63, 63);
+	padding-bottom: 40px;
+}
+
+.for-partner {
+	padding-top: 100px
+}
+.for-part .round-logo {
+	margin-top: 0px;
+}
+.for-partner h4 {
+	padding-bottom: 35px;
+}
+/*for customers区结束*/
+
+/*app download*/
+.get-link {
+	background-color: #F6F6F6;
+	padding: 80px 0px 50px;
+}
+.message {
+	font-size: 25px;
+	font-weight: 600;
+	margin: 10px 0px 24px;
+	font-family:  "Raleway", sans-serif;;
+}
+.link-btn {
+	background-color: #3ABAF1;
+	color: #fff;
+}
+.slogan-left,.slogan-right {
+	margin: auto auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.slogan-left {
+	padding: 40px 15px 20px;
+}
+.slogan-right {
+	padding: 20px 15px 80px;
+}
+/*app download结束*/
+
+/*媒体查询*/
+@media screen and (min-width: 992px){
+	.main-title {
+		font-size: 32px;
+	}
+	.slide-box {
+		position: absolute;
+		top: 30%;
+	}
+	.nav-list li {
+		font-size: 16px;
+	}
+	.slide-box h2 {
+		font-size: 57px;
+		line-height: 1.4;
+	}
+	.slide-box p {
+		font-size: 24px;
+		line-height: 1.4;
+		padding: 15px 0px;
+	}
+
+	.download-btn {
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	padding: 14px 30px;
+	margin-top: 30px;
+	background-color:#08ABA6;
+	border: 1px solid #08ABA6;
+	display: inline-block;
+	}
+
+	/*for customers区*/	
+	.for-text {
+		font-size: 20px;		
+	}
+	/*for customers区结束*/
+}
