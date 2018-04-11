@@ -47,7 +47,7 @@ $(function(){
 
 // container子无素背景宽为屏宽100%,
 function fullWidth(value1,value2){
-		var paddingValue = parseInt($(value1).css("margin-left"))+15+"px";
+		var paddingValue = parseInt($(value1).css("margin-left"))+16+"px";
 		$(value2).css({
 			"margin-left" : ("-"+paddingValue),
 			"margin-right": ("-"+paddingValue),
