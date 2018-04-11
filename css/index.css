@@ -120,7 +120,7 @@
 	color: #08ABA6;
 	background-color:#fff;
 }
-#top-list li a {
+#top-list .nav-li>a {
 	padding-left: 13px;
 	padding-right: 13px;
 	color: #fff;
@@ -128,7 +128,28 @@
 	font-family: "Raleway", sans-serif;
 	transition: all 0.3s ease-in-out;
 }
-#top-list li a:hover {color: #08ABA6;}
+#top-list .nav-li>a:hover {color: #08ABA6;}
+
+.sub-list {
+	display: none;
+	position: absolute;
+	right: 13px;
+	padding-left: 0;
+	background-color: #1c1c1c;
+	border-top: 1px solid #08ABA6;
+	list-style: none;
+	transition: height 1s ease-in-out;
+}
+.sub-list a{
+	padding: 0 18px;
+	display: block;
+	color: #fff;
+	line-height: 3.3em;
+	width: 180px;	
+	text-align: left;
+	text-decoration: none;
+}
+.sub-list a:hover { background-color: #08ABA6 }
 @media (max-width: 768px){
 	.han-btn { float: none; }
 }

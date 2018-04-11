@@ -1,0 +1,204 @@
+* { 
+	border:1px so #888;
+	font-style: normal;
+ }
+ body {
+	color: #767676;
+	text-align: center;
+	font-family: Raleway, sans-serif;
+}
+.container {
+	max-width: 1170px;
+}
+/*导航样式*/
+.top-nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 0px;
+	border:none;
+	background-color: rgb(0,0,0,0);
+	color: #fff;
+	transition: all .3s ease-out;	
+}
+@media(max-width: 768px){
+	.top-nav{ background-color: rgb(0,0,0,.85) }
+	.navbar-fixed-top {
+	position: static !important;
+	}	
+}
+.top-nav-dark {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(0,0,0,0);
+}
+.logo {
+	text-align: center;
+}
+.logo img { height: 100px; }
+
+.nav-list {
+	padding-top: 20px;
+}
+.nav-list-btn {
+	margin-top: 8px;
+	border-radius: 0;
+	background-color:#08ABA6;
+	transition: all .3s ease-in-out;
+}
+.nav-list-btn:hover {
+	display: inline-block;
+	color: #08ABA6;
+	background-color:#fff;
+}
+#top-list .nav-li>a {
+	padding-left: 13px;
+	padding-right: 13px;
+	color: #fff;
+	font-weight: 500;
+	font-family: "Raleway", sans-serif;
+	transition: all 0.3s ease-in-out;
+}
+#top-list .nav-li>a:hover {color: #08ABA6;}
+
+.sub-list {
+	display: none;
+	position: absolute;
+	right: 13px;
+	padding-left: 0;
+	background-color: #1c1c1c;
+	border-top: 1px solid #08ABA6;
+	list-style: none;
+	transition: height 1s ease-in-out;
+}
+.sub-list a{
+	padding: 0 18px;
+	display: block;
+	color: #fff;
+	line-height: 3.3em;
+	width: 180px;	
+	text-align: left;
+	text-decoration: none;
+}
+.sub-list a:hover { background-color: #08ABA6 }
+@media (max-width: 768px){
+	.han-btn { float: none; }
+}
+@media (min-width: 759px) and (max-width: 1200px){
+	.nav-list-btn{
+		float: none;
+		margin-top: 0px;
+	}
+}
+
+/*导航样式结束*/
+
+/*contact*/
+.contact {
+	background-color: #05585C;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	vertical-align: middle;
+	color: #fff;
+}
+.contact-text {
+	display: block;
+	line-height: 50px;
+	margin-top: auto;
+	margin-bottom: auto;
+	font-size: 15px;
+	font-weight: 500;
+	/*color: #fff;*/
+}
+.contact-btn, .sign-up-btn {
+	padding: 12px 25px;
+	border-radius: 4px;
+	border-color:#08aba6;
+	color: #08aba6;
+	font-size: 13px;
+	background:rgba(0,0,0,0);
+	font-style: none;
+}
+.contact-btn:hover {
+	color: #fff;
+	background-color: #08aba6;
+}
+
+/*contact msg*/
+.contact-msg {
+	padding-top: 30px;
+	padding-bottom: 60px;
+	background-color: #252525;
+	color: #fff;
+	text-align: left;
+}
+.contact-msg img {
+	max-width: 200px;
+}
+address {
+	padding-bottom: 20px;
+	line-height: 2.5;
+	font-size: 13px;
+}
+.sign h4 {
+	margin-bottom: 15px;
+
+}
+#addr-input {
+	padding:.5278em;
+	height: 48px;
+	border-radius: 0;
+	background-color: #F1F1F1;
+	border:2px solid rgba(51,51,51,.1);
+}
+.addr-label {
+	font-size: 12px;
+	margin-bottom: 0;
+	margin-top: 15px;
+	}
+.sign-up-btn {
+	margin-top: 8px;
+	padding: .5278em;
+	height: 48px;
+	/*border-radius: 0;	*/
+	border: 1px solid #08ABA6;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 500;
+	background-color:#08ABA6;
+	font-style: normal;
+}
+
+.back-top {
+	display: block;
+	position: fixed !important;
+	border-radius: 2px;
+	border: 1px solid #08ABA6;
+	height: 40px;
+	width: 40px;
+	bottom: 10px;
+	right: 15px;
+	z-index: 1000;
+	background-color: #08ABA6;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+
+/*footer*/
+.footer {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #1C1C1C;
+	color: #666666;
+	font-style: normal;
+}
+.tank-margin {
+	padding-top: 80px;
+	padding-bottom: 200px;
+}
+
+/*invest us页面*/
+.invest-us {
+	text-align: left;
+}
+/*invest us页面结束*/
