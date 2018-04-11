@@ -1,4 +1,8 @@
 /*service页面样式*/
+.group-wrap {
+	padding-top: 80px;
+	padding-bottom: 180px;
+}
 .header-img {
 	position: relative;
 	overflow: hidden;
@@ -32,9 +36,6 @@
 }
 
 /*content内容*/
-.group-wrap {
-	padding-bottom: 100px;
-}
 .group {
 	margin-left: -2px;
 	margin-right: -2px;
